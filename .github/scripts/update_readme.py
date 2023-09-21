@@ -17,4 +17,4 @@ with open('README.md', 'w') as readme:
         with open('_posts/' + file, 'r') as post:
             # grab the third line of the post, which is the title
             title = post.readlines()[2].split(':')[-1].lstrip()
-        readme.write(f'[{title} - ({year}.{month}.{day})]({host}/{year}/{month}/{day}/{post_url}.html)\n\n')
+        readme.write(f'[{title} - {year}.{month}.{day}]({host}/{year}/{month}/{day}/{post_url}.html)\n\n')
