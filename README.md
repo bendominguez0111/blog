@@ -1,3 +1,4 @@
 # Blog Posts
 
-* [2023-09-30-my-first-post](2023-09-30-my-first-post.md)
+[2023-09-20 - my-first-post](https://bendominguez011.github.io/blog/2023/09/20/my-first-post.html)
+

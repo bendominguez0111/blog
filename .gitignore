@@ -1,0 +1,4 @@
+# local Jeckyll build
+Gemfile
+Gemfile.lock
+_site
