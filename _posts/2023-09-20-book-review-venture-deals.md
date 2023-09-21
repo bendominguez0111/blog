@@ -3,6 +3,8 @@ layout: post
 title: Thoughts on Venture Deals
 ---
 
+# Thoughts on Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist
+
 Lately I've been reading this book called Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist by Brad Feld and Jason Mendelson.
 
 I wanted to read this book because I felt like much of my knowledge about how the venture capital world works was pretty fractured, and this book came highly regarded. 
