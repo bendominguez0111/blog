@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '_posts/**'
+      - '.github/scripts/update_readme.py'
 
 jobs:
   build:
