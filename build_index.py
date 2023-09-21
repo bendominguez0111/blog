@@ -5,7 +5,7 @@ import os
 
 files = os.listdir("_posts")
 
-host = 'https://bendominguez011.github.io/blog'
+host = 'https://bendominguez0111.github.io/blog'
 
 with open('README.md', 'w') as readme:
     readme.write('# Blog Posts\n\n')
