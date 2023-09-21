@@ -8,10 +8,13 @@ files = os.listdir("_posts")
 host = 'https://bendominguez0111.github.io/blog'
 
 with open('README.md', 'w') as readme:
-    readme.write('# Blog Posts\n\n')
+    readme.write('### Posts:\n\n')
     for file in files:
         year = file.split('-')[0]
         month = file.split('-')[1]
         day = file.split('-')[2]
-        title = '-'.join(file.split('-')[3:]).split('.')[0]
-        readme.write(f'[{year}-{month}-{day} - {title}]({host}/{year}/{month}/{day}/{title}.html)\n\n')
+        post_url = '-'.join(file.split('-')[3:]).split('.')[0]
+        with open('_posts/' + file, 'r') as post:
+            # grab the third line of the post, which is the title
+            title = post.readlines()[2].split(':')[-1].lstrip().rstrip()
+        readme.write(f'[{title} - ({year}.{month}.{day})]({host}/{year}/{month}/{day}/{post_url}.html)\n\n')
